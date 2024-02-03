@@ -1,11 +1,11 @@
 # task 1
-thisdict =	{
+thisdict = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
 }
-thisdict["color"] = "red"
-print(thisdict)
+mydict = thisdict.copy()
+print(mydict)
 
 # task 2
 thisdict = {
@@ -13,6 +13,5 @@ thisdict = {
   "model": "Mustang",
   "year": 1964
 }
-thisdict.update({"color": "red"})
-
-print(thisdict)
+mydict = dict(thisdict)
+print(mydict)
