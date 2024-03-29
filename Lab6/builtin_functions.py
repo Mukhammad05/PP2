@@ -62,6 +62,7 @@ print(all_true_tuple(tuple_2))
 
 
 
+
 # # task 1
 # from functools import reduce
 
