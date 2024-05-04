@@ -2,8 +2,8 @@ import csv
 import psycopg2 as pgsql
 
 
-connection=pgsql.connect(host="localhost", dbname="lab10", user="postgres", 
-                         password="987654321", port=5432)
+connection=pgsql.connect(host="localhost", dbname="postgres", user="postgres", 
+                         password="2005Ali*", port=5432)
 cur=connection.cursor()
 
 cur.execute("""CREATE TABLE IF NOT EXISTS PhoneBook (
